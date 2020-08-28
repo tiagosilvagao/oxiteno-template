@@ -113,70 +113,45 @@ label {
 }
 
 /* Buttons **/
-button.btn-default {
+.btn-default {
+    color: #fff!important;
+    background: #97C93D!important;
+/* 
     color: #fff!important;
     background: #97C93D!important;
     border-radius: 4px;
     padding: 10px;
     text-transform: uppercase;
     transition: 200ms;
+    width:150px; */
 }
-button.btn-primary {
+.btn-primary {
     color: #fff!important;
     background: #265280!important;
-    border-radius: 4px;
-    padding: 10px;
-    text-transform: uppercase;
-    transition: 200ms;
 }
-button.btn-info {
+.btn-info {
     color: #255280!important;
     background: #fff!important;
-    border-radius: 4px;
-    padding: 10px;
-    text-transform: uppercase;
-    transition: 200ms;
-
 }
-button.btn-success {
+.btn-success {
     color: #fff!important;
     background: #B8DD74!important;
-    border-radius: 4px;
-    padding: 10px;
-    text-transform: uppercase;
-    transition: 200ms;
 }
-button.btn-danger {
+.btn-danger {
     color: #265280!important;
     background: #DDDADA!important;
-    border-radius: 4px;
-    padding: 10px;
-    text-transform: uppercase;
-    transition: 200ms;
 }
-button.btn-warning {
+.btn-warning {
     color: #265280!important;
     background: #FFE920!important;
-    border-radius: 4px;
-    padding: 10px;
-    text-transform: uppercase;
-    transition: 200ms;
 }
-button.btn-light {
+.btn-light {
     color: #fff!important;
     background: #579DE3!important;
-    border-radius: 4px;
-    padding: 10px;
-    text-transform: uppercase;
-    transition: 200ms;
 }
-button.btn-link {
+.btn-link {
     color: #fff!important;
     background: #514D4D!important;
-    border-radius: 4px;
-    padding: 10px;
-    text-transform: uppercase;
-    transition: 200ms;
 }
 /*FIM Classe padrão bootstrap*/ 
 
@@ -259,7 +234,7 @@ button.btn-default:hover {
 /*coluna Grid nome td*/
 .k-grid td, .k-grid th {
     padding: 5px 24px;
-    width: 11%;
+    width: 23%;
 }
 /* Fim coluna Grid nome td*/
 /*bola grid*/
@@ -441,7 +416,11 @@ img.user-avatar .user-avatar-two {
 
     }
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
+.k-grid td, .k-grid th {
+    padding: 5px 24px;
+    width: 125px;
+}
 
     img.image-logo {
         width: 200px;
