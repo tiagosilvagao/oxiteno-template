@@ -112,26 +112,18 @@ label {
     display: inline-block;
 }
 
-/* Buttons **/
+/* Buttons */
 .btn-default {
-    color: #fff!important;
-    background: #97C93D!important;
-/* 
-    color: #fff!important;
-    background: #97C93D!important;
-    border-radius: 4px;
-    padding: 10px;
-    text-transform: uppercase;
-    transition: 200ms;
-    width:150px; */
+    color: #fff !important;
+    background: #97C93D !important;
 }
 .btn-primary {
-    color: #fff!important;
-    background: #265280!important;
+    color: #fff !important;
+    background: #265280 !important;
 }
 .btn-info {
-    color: #255280!important;
-    background: #fff!important;
+    color: #255280 !important;
+    background: #fff !important;
 }
 .btn-success {
     color: #fff!important;
@@ -142,16 +134,16 @@ label {
     background: #DDDADA!important;
 }
 .btn-warning {
-    color: #265280!important;
-    background: #FFE920!important;
+    color: #265280 !important;
+    background: #FFE920 !important;
 }
 .btn-light {
     color: #fff!important;
     background: #579DE3!important;
 }
 .btn-link {
-    color: #fff!important;
-    background: #514D4D!important;
+    color: #fff !important;
+    background: #514D4D !important;
 }
 /*FIM Classe padrão bootstrap*/ 
 
@@ -417,6 +409,9 @@ img.user-avatar .user-avatar-two {
     }
 }
 @media only screen and (max-width: 480px) {
+.k-pager-wrap .k-pager-nav, .k-pager-wrap>.k-link {
+    border-radius: 4px;
+}
 .k-grid td, .k-grid th {
     padding: 5px 24px;
     width: 125px;
