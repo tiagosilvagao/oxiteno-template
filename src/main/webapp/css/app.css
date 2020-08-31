@@ -145,7 +145,7 @@ label {
     color: #fff !important;
     background: #514D4D !important;
 }
-/*FIM Classe padrão bootstrap*/ 
+/*FIM Classe padrão bootstrap*/ F
 
 
 /*Classe padrão Material*/
@@ -394,7 +394,6 @@ img.user-avatar .user-avatar-two {
     .navbar-nav {
         margin: 2.5px;
         text-align: right;
-        width: 100%;
     }
     .navbar-nav .open .dropdown-menu {
         position: static;
@@ -409,16 +408,12 @@ img.user-avatar .user-avatar-two {
     }
 }
 @media only screen and (max-width: 480px) {
-.k-pager-wrap .k-pager-nav, .k-pager-wrap>.k-link {
-    border-radius: 4px;
-}
-.k-grid td, .k-grid th {
-    padding: 5px 24px;
-    width: 125px;
-}
-
-    img.image-logo {
-        width: 200px;
+    .k-pager-wrap .k-pager-nav, .k-pager-wrap>.k-link {
+        border-radius: 4px;
+    }
+    .k-grid td, .k-grid th {
+        padding: 5px 24px;
+        width: 125px;
     }
 }
 
